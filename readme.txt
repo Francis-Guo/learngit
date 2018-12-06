@@ -1,5 +1,5 @@
 Git is a distributed version control system.
-Git is free software.
+Git is free software distributed under the GPL.
 
 mkdir learngit #make new directory
 cd #go to wd
