@@ -15,3 +15,4 @@ git log --pretty=oneline  #look better log file
 git reset --hard HEAD^  #back to last file version, using HEAD~100 to last 100 file 
 git reset --hard commit_id  #back to future version
 git reflog  #every command and commit id
+cat readme.txt  #read the file and see the context
