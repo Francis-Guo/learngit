@@ -10,4 +10,8 @@ git commit -m"xxxxx" #commit file to repository and add comments
 git status #see current status
 git diff #see difference
 
- 
+git log  #look at the log file to see every revise
+git log --pretty=oneline  #look better log file
+git reset --hard HEAD^  #back to last file version, using HEAD~100 to last 100 file 
+git reset --hard commit_id  #back to future version
+git reflog  #every command and commit id
