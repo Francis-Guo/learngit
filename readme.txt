@@ -3,6 +3,7 @@ Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
 
+
 mkdir learngit #make new directory
 cd #go to wd
 pwd #show current directory
@@ -19,3 +20,6 @@ git reset --hard HEAD^  #back to last file version, using HEAD~100 to last 100 f
 git reset --hard commit_id  #back to future version
 git reflog  #every command and commit id
 cat readme.txt  #read the file and see the context
+
+git checkout -- file  #discard changes in wd
+git reset HEAD file # to unstage
