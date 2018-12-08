@@ -1,7 +1,7 @@
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
-Git tracks changes.
+Git tracks changes of files.
 
 mkdir learngit #make new directory
 cd #go to wd
@@ -11,6 +11,7 @@ git add xxxx #add xxx file to repository
 git commit -m"xxxxx" #commit file to repository and add comments
 git status #see current status
 git diff #see difference
+git diff HEAD -- readme.txt #see difference for readme text file
 
 git log  #look at the log file to see every revise
 git log --pretty=oneline  #look better log file
