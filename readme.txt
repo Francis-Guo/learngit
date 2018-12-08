@@ -23,3 +23,6 @@ cat readme.txt  #read the file and see the context
 
 git checkout -- file  #discard changes in wd
 git reset HEAD file # to unstage
+
+git rm file #delete the file in master
+git checkout -- file #discard changes in working directory
