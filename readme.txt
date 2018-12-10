@@ -26,3 +26,8 @@ git reset HEAD file # to unstage
 
 git rm file #delete the file in master
 git checkout -- file #discard changes in working directory
+
+$ ssh-keygen -t rsa -C"youremail@example.com" #set up a .ssh directory and set id_rsa
+git remote add origin https://github.com/Francis-Guo/learngit.git  #connect git origin and master
+git push -u origin master #push all to origin from master; -u means connect each branch and only add in the first time
+git push origin master #push all after revising in the master
