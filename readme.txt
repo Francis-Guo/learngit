@@ -3,6 +3,7 @@ Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
 Creating a new branch is quick and simple.
+how to shut down fast forward.
 
 
 mkdir learngit #make new directory
