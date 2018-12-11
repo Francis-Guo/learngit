@@ -52,4 +52,4 @@ git stash drop     #delete the saved file in stash
 git stash pop     #restore working directory and delete it in stash
 git stash apply stash@{0}  #restore {0} stash
 
-
+git branch -D <name>   #delete a branch which is not merged
