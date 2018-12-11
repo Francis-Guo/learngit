@@ -45,3 +45,11 @@ git merge <name>    #merge <name> and master(update master)
 git branch -d <name>   #delete <name>
 git log --graph --pretty=oneline --abbrev-commit
 git merge --no-ff -m"merge with no-ff" dev   #shut down fast forward and then merge, generate a new commit
+git stash    #save current working directory
+git stash list   #see what files are saved before
+git stash apply    #restore working directory but not delete in stash
+git stash drop     #delete the saved file in stash
+git stash pop     #restore working directory and delete it in stash
+git stash apply stash@{0}  #restore {0} stash
+
+
