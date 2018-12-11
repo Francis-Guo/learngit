@@ -40,4 +40,4 @@ git checkout -b dev   #set up a new branch dev and switch to dev, -b means start
 git branch   #see all branch and current branch
 git checkout master   #switch to branch master
 git merge dev    #merge dev and master(update master)
-
+git branch -d dev   #delete dev
