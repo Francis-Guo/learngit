@@ -3,7 +3,6 @@ Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
 Creating a new branch is quick and simple.
-how to shut down fast forward.
 
 
 mkdir learngit #make new directory
@@ -45,3 +44,4 @@ git checkout <name>   #switch to branch <name>
 git merge <name>    #merge <name> and master(update master)
 git branch -d <name>   #delete <name>
 git log --graph --pretty=oneline --abbrev-commit
+git merge --no-ff -m"merge with no-ff" dev   #shut down fast forward and then merge, generate a new commit
