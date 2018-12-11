@@ -2,7 +2,7 @@ Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
-
+Creating a new branch is quick.
 
 mkdir learngit #make new directory
 cd #go to wd
@@ -34,4 +34,8 @@ git push -u origin master    #push all to origin from master; -u means connect e
 git push origin master    #push all after revising in the master
 
 git clone git@github.com:Francis-Guo/gitskills.git    #clone repository from origin to master
+
+git checkout -b dev   #set up a new branch dev and switch to dev, -b means start and switch to 
+= $git branch dev $git checkout dev
+git branch   #see all branch and current branch
 
