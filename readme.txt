@@ -37,7 +37,8 @@ git clone git@github.com:Francis-Guo/gitskills.git    #clone repository from ori
 
 git checkout -b dev   #set up a new branch dev and switch to dev, -b means start and switch to 
 = $git branch dev $git checkout dev
-git branch   #see all branch and current branch
-git checkout master   #switch to branch master
-git merge dev    #merge dev and master(update master)
-git branch -d dev   #delete dev
+git branch    #see all branch and current branch
+git branch <name>    #set up a new branch 
+git checkout <name>   #switch to branch <name>
+git merge <name>    #merge <name> and master(update master)
+git branch -d <name>   #delete <name>
