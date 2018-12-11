@@ -43,3 +43,4 @@ git branch <name>    #set up a new branch
 git checkout <name>   #switch to branch <name>
 git merge <name>    #merge <name> and master(update master)
 git branch -d <name>   #delete <name>
+git log --graph --pretty=oneline --abbrev-commit
