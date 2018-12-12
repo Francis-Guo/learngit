@@ -60,3 +60,8 @@ git push origin dev  #push dev to remote origin
 ###must push master and dev, don't need to push bug, feature branch depends on if someone develop with you
 git clone git@github.com:michaelliao/learngit.git   #only clone master
 git checkout -b dev origin/dev  #set up origin dev to local
+
+git pull  #pull a branch to local
+git branch --set-upstream-to=origin/<branch> dev   #if you wish to set tracking information for this branch you can do so with
+git branch --set-upstream-to=origin/dev dev
+
