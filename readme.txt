@@ -67,6 +67,11 @@ git branch --set-upstream-to=origin/dev dev
 
 git rebase    #rebase the log 
 git tag <name>   #tag to commit
-git tag    #see tags
+git tag    #see all tags
 
 git tag v0.9 26b59ec  #tag history commit
+git show <tagname>   #show tagname details
+git tag -a v0.1 -m "version 0.1 released" e67573e    #-a: tagname  -m:details
+
+
+
