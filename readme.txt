@@ -69,3 +69,4 @@ git rebase    #rebase the log
 git tag <name>   #tag to commit
 git tag    #see tags
 
+git tag v0.9 26b59ec  #tag history commit
