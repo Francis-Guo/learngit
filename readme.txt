@@ -66,3 +66,6 @@ git branch --set-upstream-to=origin/<branch> dev   #if you wish to set tracking 
 git branch --set-upstream-to=origin/dev dev
 
 git rebase    #rebase the log 
+git tag <name>   #tag to commit
+git tag    #see tags
+
