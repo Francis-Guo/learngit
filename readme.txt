@@ -73,5 +73,8 @@ git tag v0.9 26b59ec  #tag history commit
 git show <tagname>   #show tagname details
 git tag -a v0.1 -m "version 0.1 released" e67573e    #-a: tagname  -m:details
 
-
+git tag -d <tagname>  #delete wrong tag
+git push origin <tagname>    #push tag to origin
+git push origin --tags   #push all unupload tags to origin
+git push origin :refs/tags/v0.9   #delete wrong tag in origin
 
