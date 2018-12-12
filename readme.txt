@@ -78,5 +78,6 @@ git push origin <tagname>    #push tag to origin
 git push origin --tags   #push all unupload tags to origin
 git push origin :refs/tags/<tagname>   #delete wrong tag in origin
 
+git config --global color.ui true   #show color in git bush
 
 
