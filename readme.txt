@@ -65,3 +65,4 @@ git pull  #pull a branch to local
 git branch --set-upstream-to=origin/<branch> dev   #if you wish to set tracking information for this branch you can do so with
 git branch --set-upstream-to=origin/dev dev
 
+git rebase    #rebase the log 
