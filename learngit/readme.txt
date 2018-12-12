@@ -53,10 +53,3 @@ git stash pop     #restore working directory and delete it in stash
 git stash apply stash@{0}  #restore {0} stash
 
 git branch -D <name>   #delete a branch which is not merged
-
-git remote  ##check remote info
-git remote -v  #check remote info details
-git push origin dev  #push dev to remote origin
-###must push master and dev, don't need to push bug, feature branch depends on if someone develop with you
-git clone git@github.com:michaelliao/learngit.git   #only clone master
-git checkout -b dev origin/dev  #set up origin dev to local
